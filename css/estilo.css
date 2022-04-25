@@ -1,3 +1,31 @@
-body{
-    background-color: aqua;
+*{
+    margin:0; padding: 0; box-sizing: border-box; outline: none;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 75% 25%;/*Criando 2 colunas com essa porcentagem de largura pra essa colunas*/
+    grid-template-areas: 'cabecalho formulario'
+                         'principal formulario'
+                         'rodape formulario';
+    height: 100vh;
+    
+}
+
+
+
+header{
+    background-color: blue;
+    grid-area: cabecalho;
+}
+ main{   
+     background-color: red;
+     grid-area: principal;
+}
+aside{
+    background-color: chartreuse;
+    grid-area: formulario;
+}
+footer{
+    background-color: darkmagenta;
+    grid-area: rodape;
 }
