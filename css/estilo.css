@@ -9,8 +9,10 @@
                          'rodape formulario';
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
     
     
+     
 }
 
 
@@ -22,10 +24,15 @@ header{
     display: flex;
     align-items: center;
     padding: 10px 30px;
+    
 
 }
 .logo img{
     width: 80px;
+}
+.logo > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #274083;
 }
 
 /* PRINCIPAL*/
