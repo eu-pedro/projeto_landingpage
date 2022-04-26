@@ -1,0 +1,24 @@
+TEXTOS DA LANDINPAGE
+
+**** PRINCIPAL *****
+
+O Manual definitivo do programador front-end
+Confira tudo sobre como você pode crescer e se tornar um programador que o mercado precisa.
+
+
+**** RODAPÉ *****
+
+**** Título 1 *****
+O que faz um desenvolvedor front-end?
+O desenvolvedor Front-end, é responsável pela implementação dos elementos visuais e 
+UX/UI que garantem a interatividade e funcionalidade do website, aplicativo ou programa. 
+Conforme a pesquisa realizada pela Trampos em parceria com a Umbler as habilidades mais 
+procuradas durante a contratação são: JavaScript, HTML e CSS
+
+***** Título 2 *****
+O front-end domina o mundo
+Se você conhece um pouco sobre lógica de programação, design e está querendo mergulhar 
+no mundo do front-end, esse é o lugar para você! O foco é a criação de páginas web de 
+maneira que você tenha a base necessária para estudar os frameworks mais famosos do mercado. 
+Por isso, vamos nos aprofundar ainda mais em HTML e CSS e principalmente no JavaScript já 
+que essa é a linguagem base da web.
