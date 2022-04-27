@@ -68,4 +68,17 @@ aside{
 /* RODAPÉ */
 footer{
     grid-area: rodape;
+    background-color: #ccc;
+    color: #274083;
+    padding: 30px;
+    display: flex;
+}
+footer section{
+    margin: 0px 20px;
+}
+footer .rodape-titulo{
+    margin-bottom: 20px;
+}
+footer .rodape-conteudo{
+    line-height: 0.7cm;
 }
