@@ -64,6 +64,23 @@ main h3{
 /* FORMULÁRIO */
 aside{
     grid-area: formulario;
+    background-color: #274083;
+    padding-top: 30px;
+    text-align: center;
+}
+aside input, select{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+}
+aside form{
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 /* RODAPÉ */
 footer{
