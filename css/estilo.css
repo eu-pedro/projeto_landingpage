@@ -122,3 +122,15 @@ footer .rodape-titulo{
 footer .rodape-conteudo{
     line-height: 0.7cm;
 }
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width:1200px) {
+    .principal{
+        grid-template-columns: 100px;
+        grid-template-areas: 
+        'cabecalho'
+        'principal'
+        'rodape'
+        'formulario';
+    }
+}
