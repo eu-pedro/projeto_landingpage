@@ -94,6 +94,9 @@ aside input[type=submit]{
     cursor: pointer;
     transition: all 0.2s linear;
 }
+::placeholder{
+    color: #000;
+}
 /*EFEITOS*/
 form :where(input,select):focus{
     outline: 3.5px solid #48a0df;
@@ -144,5 +147,27 @@ footer .rodape-conteudo{
     }
     aside input[type=submit]{
             font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    main figure{
+        display: none;
+    }
+    main{
+        background: url(../imagens/livro2.png) #48A0DF; 
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+    }
+    main h1, main h3{
+        text-shadow: 3px 1px 2px black;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer section:nth-child(2){
+        margin-top: 20px;
     }
 }
